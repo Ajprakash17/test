@@ -1,0 +1,86 @@
+{
+  rootId: "1",
+  items: {
+    "1": {
+      id: "1",
+      children: ["1234", "5678", "1normal"],
+      hasChildren: true,
+      isExpanded: true,
+      isChildrenLoading: false,
+      data: {
+        title: "root"
+      }
+    },
+    "1234": {
+      id: "1234",
+      children: ["1abcd", "1efgh"],
+      hasChildren: true,
+      isExpanded: true,
+      isChildrenLoading: false,
+      data: {
+        title: "group layer 1"
+      }
+    },
+
+    "1abcd": {
+      id: "1abcd",
+      children: [],
+      hasChildren: false,
+      isExpanded: false,
+      isChildrenLoading: false,
+      data: {
+        title: "children"
+      }
+    },
+    "1efgh": {
+      id: "1efgh",
+      children: [],
+      hasChildren: false,
+      isExpanded: false,
+      isChildrenLoading: false,
+      data: {
+        title: "children2"
+      }
+    },
+    "5678": {
+      id: "5678",
+      children: ["1ijkl", "1mnop"],
+      hasChildren: true,
+      isExpanded: true,
+      isChildrenLoading: false,
+      data: {
+        title: "group2 "
+      }
+    },
+    "1ijkl": {
+      id: "1ijkl",
+      children: [],
+      hasChildren: false,
+      isExpanded: false,
+      isChildrenLoading: false,
+      data: {
+        title: "Child two"
+      }
+    },
+    "1mnop": {
+      id: "1mnop",
+      children: [],
+      hasChildren: false,
+      isExpanded: false,
+      isChildrenLoading: false,
+      data: {
+        title: "Child three"
+      }
+    },
+    "1normal": {
+      id: "1normal",
+      children: [],
+      hasChildren: false,
+      isExpanded: false,
+      isChildrenLoading: false,
+      data: {
+        title: "normal layer"
+      }
+    }
+  }
+}
